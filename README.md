@@ -1,29 +1,3 @@
-# Titan3D
-
-A basic 3D game engine for Android, ported from a Linux software renderer to OpenGL ES.
-
-## Features
-
-- 3D cube rendering with lighting
-- Proper Z-culling using depth testing
-- Rotating cube animation
-- Sky color blending
-
-## Building
-
-Ensure Android SDK and NDK are installed.
-
-Run:
-```
-gradle build
-```
-
-The APK will be in `app/build/outputs/apk/debug/app-debug.apk`
-
-## Target
-
-Specifically optimized for LG G7 ThinQ (Android API 28, Snapdragon 845).
-
-## Notes
-
-This is a starting point with basics. The original software renderer has been converted to GPU-accelerated OpenGL ES for better performance on Android.# Titan-3D-Engine
+#​Titan 3D Engine
+​A 3D Engine being developed for android (specifically optimized for the LG G7 ThinQ at this time and any better device/s) for the use of making better mobile ports of pc games, Inspired by Source Engine as well as Unreal Engine, with the hopes of being less resource intensive while keeping the same looks as well as integrated but minimal PTGI / RT.
+​At this time I am simply developing the graphics and tracking what new changes I can implement until the skybox looks good and I can start modeling the game map. After that point I will be trying to port some games that pc gamers love but able to be played on mobile, starting off with uhh.., some guy that no one else can interact with, telling me to wake the hell up, and something about "flatlining gonks or corpos," whatever that means.. For some reason he called me "samurai"? 
